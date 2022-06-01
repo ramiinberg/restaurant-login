@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   font-size: 1.3125rem;
+  margin: 0;
 }
 
 .subtitle {
@@ -24,7 +25,7 @@ h2 {
   font-weight: 900;
   font-size: 1.3125rem;
   text-transform: uppercase;
-  margin: 0;
+  margin-top: 0;
 }
 
 .fine-print {
@@ -46,7 +47,7 @@ h2 {
 .intro {
   background-color: #404040;
   background-image: url("../images/bbq.jpg");
-  padding: 0 .25em 1em;
+  padding: 0 .5em 2em;
   display: flex;
   flex-direction: column;
 }
@@ -55,3 +56,12 @@ h2 {
   order: -1;
   /* text-decoration: overline; */
 }
+
+/* Main content */
+
+.main-content {
+  padding: 2em 1em;
+}
+
+
+
