@@ -6,11 +6,12 @@ body {
   text-align: center;
 }
 
-/* typograph */
+/* typography */
 
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
+  color: white;
 }
 
 h2 {
@@ -37,3 +38,11 @@ h2 {
 }
 
 .bold { font-weight: 900; }
+
+/* Intro section */
+
+.intro {
+  background-color: #404040;
+  background-image: url("../images/bbq.jpg");
+  padding: 0 .25em 1em;
+}
