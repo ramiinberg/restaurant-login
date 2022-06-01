@@ -45,4 +45,12 @@ h2 {
   background-color: #404040;
   background-image: url("../images/bbq.jpg");
   padding: 0 .25em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text {
+  order: -1;
+  margin-top: 0;
+  /* text-decoration: overline; */
 }
