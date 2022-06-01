@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin:0;
   font-family: 'Source Sans Pro', sans-serif;
@@ -85,12 +89,10 @@ h2 {
     max-width: 100%;
   }
 
-  .intro {
-    width: 50%;
-  }
-
+  .intro,
   .main-content {
     width: 50%;
+    min-height: 100vh;
   }
 }
 
