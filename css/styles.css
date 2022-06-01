@@ -47,6 +47,8 @@ h2 {
 .intro {
   background-color: #404040;
   background-image: url("../images/bbq.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 0 .5em 2em;
   display: flex;
   flex-direction: column;
@@ -76,6 +78,19 @@ h2 {
 
   h2, .subtitle {
     font-size: 1.75rem;
+  }
+
+  .divider {
+    display: flex;
+    max-width: 100%;
+  }
+
+  .intro {
+    width: 50%;
+  }
+
+  .main-content {
+    width: 50%;
   }
 }
 
