@@ -63,5 +63,19 @@ h2 {
   padding: 2em 1em;
 }
 
+/* media query */
 
+@media (min-width: 500px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2, .subtitle {
+    font-size: 1.75rem;
+  }
+}
 
