@@ -42,6 +42,11 @@ h2 {
   font-weight: 900;
   color: #f18119;
   text-transform: uppercase;
+  order: -1;
+  border-top: 5px solid #f18119;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+  margin: 0;
+  padding-top: 2px;
 }
 
 .bold { font-weight: 900; }
@@ -58,11 +63,6 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   min-height: 50vh;
-}
-
-.top-text {
-  order: -1;
-  /* text-decoration: overline; */
 }
 
 /* Main content */
