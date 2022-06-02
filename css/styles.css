@@ -112,7 +112,12 @@ input {
 .btn-primary {
   background: linear-gradient(to right, #ffa51d, #ff713b);
   color: white;
+  transition: color 500ms;
+}
 
+.btn-primary:hover,
+.btn-primary:focus {
+  color: black;
 }
 
 /* media query */
